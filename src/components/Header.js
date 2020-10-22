@@ -2,10 +2,12 @@ import React from "react"
 
 /*The following is the same as the function statement on the next line: const Header = () => { */
 function Header(){
-const headerStyle = {
-  padding: "20px 0",
-  lineHeight: "2em",
-}
+  const headerStyle = {
+    backgroundColor: "#678c89",
+    color: "#fff",
+    padding: "10px 15px"
+  };
+
   return (
     <header style={headerStyle}>
       <h1 style={{ fontSize: "25px", marginBottom: "15px" }}>Simple Todo App</h1>

@@ -3,7 +3,6 @@ import Header from "./Header"
 import TodosList from "./TodosList";
 import InputTodo from "./InputTodo";
 import { v4 as uuidv4 } from "uuid";
-import "../App.css"
 
 class TodoContainer extends React.Component {
 state = {
